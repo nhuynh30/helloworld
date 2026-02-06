@@ -17,7 +17,7 @@ int main(){
     res = BSA1 * pow(weight, BSA2) * pow(height, BSA3);
     printf("The height is: %.1f centimeters\n", height);
     printf("The weight is: %.1f kilograms\n", weight );
-    printf("BSA: %.4f meter squares\n", res);
+    printf("BSA: %.4f square meters\n", res);
 
     return 0;
 }
