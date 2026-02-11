@@ -18,6 +18,7 @@ int main(){
     printf("The height is: %.1f centimeters\n", height);
     printf("The weight is: %.1f kilograms\n", weight );
     printf("BSA: %.4f square meters\n", res);
+    print
 
     return 0;
 }
