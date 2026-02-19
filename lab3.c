@@ -67,3 +67,22 @@ int main()
         }
     }
 }
+
+char  menu(){
+
+	char choice=' ';
+	char buffer[10];
+
+	printf("Menu Choice                    Input Choice\n");
+	printf("Enter/Change Character         'C' or 'c'\n");
+	printf("Enter/Change Number            'N' or 'n'\n");
+	printf("Draw Line                      'L' or 'l'\n");
+	printf("Draw Square                    'S' or 's'\n");
+	printf("Draw Rectangle                 'R' or 'r'\n");
+	printf("Draw Triangle(left justified)  'T' or 't'\n");
+	printf("Quit Program                   'Q' or 'q'\n");
+	fgets(buffer, sizeof(buffer), stdin);
+	sscanf(buffer, "%c", &choice);
+
+	return choice;
+}
