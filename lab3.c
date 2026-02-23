@@ -95,3 +95,14 @@ char getChar()
     scanf(" %c", &x);
     return x;
 }
+
+int getNum()
+{
+    int x = 0;
+    while (x > 15 || x < 1)
+    {
+        printf("Please enter a number from 1-15: \n");
+        scanf(" %d", &x);
+    }
+    return x;
+}
