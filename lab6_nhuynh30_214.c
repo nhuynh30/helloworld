@@ -1,8 +1,4 @@
-/*
-* Nam Huynh and G01508690
-* CS262, Lab section 214
-* Lab 6
-*/
+
 
 #include <stdio.h>
 #include <stdlib.h>
